@@ -1,0 +1,120 @@
+p {
+    font-family: serif;
+}
+
+a:hover {
+    font-size: larger;
+    transition: 0.5s;
+}
+
+a {
+    transition: 0.5s;
+}
+
+a:visited {
+    color: rgb(44, 119, 0);
+}
+
+body {
+    width: 90%;
+    margin: auto;
+    position: relative;
+    background: -webkit-linear-gradient(89deg, rgb(238, 238, 238), rgb(208, 213, 217));
+    background: linear-gradient(89deg, rgb(238, 238, 238), rgb(208, 213, 217));
+    font-family:'Open Sans', sans-serif;
+    background: url(https://img.freepik.com/free-photo/white-painted-wall-texture-background_53876-138197.jpg?w=826&t=st=1695738982~exp=1695739582~hmac=5b7a4faea53dfcb8206129081eb87e6b7415faed11c0696a42c8f443df988004);
+    background-position: bottom right;
+    background-size: cover;
+}
+
+
+.farmer{
+    border-left: 3px solid blue;
+}
+
+blockquote{
+    background-color: rgba(128, 128, 128, 0.311);
+    font-size: 1.6em;
+    border-left: 3px solid firebrick;
+    padding-left: 30px;
+    line-height: 80px;
+    font-style: italic;
+}
+
+
+
+
+/* CSS selectors (part 2) : */
+
+/* Identify the quotes of the villagers and the farmer by assigning each a corresponding class. */
+
+h1{
+    background-color: yellow;
+}
+
+th{
+    background-color: white;
+}
+
+tr:nth-child(odd){
+    background-color: grey;
+}
+
+.good{
+    color: green;
+}
+
+.bad
+{
+    color: red;
+}
+
+.goodBackground{
+    font-style: normal;
+    background-repeat: no-repeat;
+    background-image: url(https://raw.githubusercontent.com/becodeorg/Swartz-8/main/1.The-Field/8.Html-CSS/progressive-enhancement/bien.png?token=GHSAT0AAAAAACHZHYCHP3SO3JIELMHCET2AZIS4IHA);
+    text-decoration: none;
+    padding-right: 25px;
+    background-size: 30%;
+    background-position: 90% 50%;
+
+}
+
+li:nth-of-type(2){
+    background-repeat: no-repeat;
+    background-image: url(https://raw.githubusercontent.com/becodeorg/Swartz-8/main/1.The-Field/8.Html-CSS/progressive-enhancement/mal.png?token=GHSAT0AAAAAACHY6L56WIJKD4HB5RF5UG4AZIS4LBA);
+    text-decoration: none;
+    background-size: 4%;
+    background-position: 52% 50%;
+}
+
+li:nth-of-type(3){
+    background-repeat: no-repeat;
+    background-image: url(https://raw.githubusercontent.com/becodeorg/Swartz-8/main/1.The-Field/8.Html-CSS/progressive-enhancement/mal.png?token=GHSAT0AAAAAACHY6L56WIJKD4HB5RF5UG4AZIS4LBA);
+    text-decoration: none;
+    background-size: 4%;
+    background-position: 52% 50%;
+}
+
+blockquote{
+    border-left: 3px firebrick solid;
+}
+
+.imageflex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.notification{
+    background:#FFFFDD;
+    padding:.5rem 1rem;
+    border:3px solid #DDDDCC;
+    width:250px;
+    font-weight:bold;
+    color: #333300;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    /* rajoute le code nécessaire ici*/
+  }
